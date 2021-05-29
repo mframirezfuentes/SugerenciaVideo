@@ -11,7 +11,7 @@ class Multimedia {
 }
 class Reproductor extends Multimedia {
     constructor(url, id) {
-        super(url, id)
+        super(url)
         let _id = id;
         this.getId = () => _id;
         this.setId = (nuevoId) => _id = nuevoId
